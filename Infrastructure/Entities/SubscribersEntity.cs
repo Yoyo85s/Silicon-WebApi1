@@ -5,6 +5,8 @@ namespace Infrastructure.Entities;
 public class SubscribersEntity
 {
     [Key]
+   
+
     public string Email { get; set; } = null!;
     public bool DailyNewsletter { get; set; }
     public bool AdvertisingUpdates { get; set; }
